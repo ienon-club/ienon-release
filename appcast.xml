@@ -5,22 +5,43 @@
     <link>https://ienon-club.github.io/ienon-release/appcast.xml</link>
     <description>Most recent updates for ienon Desktop</description>
     <language>ja</language>
+    <!-- macOS -->
     <item>
       <title>Version 1.0.0</title>
-      <pubDate>Thu, 23 Jan 2025 12:00:00 +0900</pubDate>
+      <pubDate>Fri, 23 Jan 2026 11:04:57 +0000</pubDate>
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h2>ienon Desktop 1.0.0</h2>
         <ul>
-          <li>初回リリース</li>
+          <li>アップデート</li>
         </ul>
       ]]></description>
       <enclosure
         url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.0.dmg"
-        sparkle:edSignature="UPDATE_THIS_SIGNATURE"
-        length="0"
+        sparkle:edSignature=""
+        length="28970843"
+        sparkle:os="macos"
+        type="application/octet-stream" />
+    </item>
+    <!-- Windows -->
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Fri, 23 Jan 2026 11:04:57 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <description><![CDATA[
+        <h2>ienon Desktop 1.0.0</h2>
+        <ul>
+          <li>アップデート</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.0-windows.zip"
+        sparkle:dsaSignature="MD0CHQCDdZqppLpnwNPmqr/3cFrtXIxmdTfdJjwFQUPJAhxOjxLt4YNap5cKaJ03SlyVAuJZH6LKWvR/ENKn"
+        length="18179286"
+        sparkle:os="windows"
         type="application/octet-stream" />
     </item>
   </channel>
