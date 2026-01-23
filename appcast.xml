@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ienon Desktop Updates</title>
+    <link>https://ienon-club.github.io/ienon-release/appcast.xml</link>
+    <description>Most recent updates for ienon Desktop</description>
+    <language>ja</language>
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Thu, 23 Jan 2025 12:00:00 +0900</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>ienon Desktop 1.0.0</h2>
+        <ul>
+          <li>初回リリース</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.0.dmg"
+        sparkle:edSignature="UPDATE_THIS_SIGNATURE"
+        length="0"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
