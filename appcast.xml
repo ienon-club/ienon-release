@@ -8,7 +8,7 @@
     <!-- macOS -->
     <item>
       <title>Version 1.0.4</title>
-      <pubDate>Mon, 26 Jan 2026 21:38:28 +0000</pubDate>
+      <pubDate>Mon, 26 Jan 2026 21:46:52 +0000</pubDate>
       <sparkle:version>1.0.4</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
@@ -21,14 +21,14 @@
       <enclosure
         url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.4.dmg"
         sparkle:edSignature=""
-        length="29932559"
+        length="29944094"
         sparkle:os="macos"
         type="application/octet-stream" />
     </item>
     <!-- Windows -->
     <item>
       <title>Version 1.0.4</title>
-      <pubDate>Mon, 26 Jan 2026 21:38:28 +0000</pubDate>
+      <pubDate>Mon, 26 Jan 2026 21:46:52 +0000</pubDate>
       <sparkle:version>1.0.4</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <description><![CDATA[
@@ -39,9 +39,9 @@
       ]]></description>
       <enclosure
         url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.4-windows-setup.exe"
-        sparkle:dsaSignature="MDwCHAwqeImaDivMsz9vtrNFfg6wNqs34/GzPqmY7hUCHAeYwo9rBLPK3w26qRiNWivIl2UDT8CMpRO0upI="
+        sparkle:dsaSignature="MD4CHQCGGHFmSqoNTRQCjoHnSEjt7tu9+5solu36HddoAh0Ai1mlyHCsgiqV+iC5XC8Q0sS6EDW0ENdmx9A/VA=="
         sparkle:installerArguments="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
-        length="38709709"
+        length="38709549"
         sparkle:os="windows"
         type="application/octet-stream" />
     </item>
