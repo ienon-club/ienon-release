@@ -7,41 +7,41 @@
     <language>ja</language>
     <!-- macOS -->
     <item>
-      <title>Version 1.0.11</title>
-      <pubDate>Tue, 27 Jan 2026 00:43:05 +0000</pubDate>
-      <sparkle:version>1.0.11</sparkle:version>
-      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <title>Version 1.0.12</title>
+      <pubDate>Tue, 27 Jan 2026 01:09:05 +0000</pubDate>
+      <sparkle:version>1.0.12</sparkle:version>
+      <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>ienon Desktop 1.0.11</h2>
+        <h2>ienon Desktop 1.0.12</h2>
         <ul>
           <li>アップデート</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.11.dmg"
-        sparkle:edSignature="bp0sTO+kTg/MUPjo7REOIC1kpI2jBN+y9SA7cSIgCdEgSOqv+6G0yqwt8r+4Ma813g59o2cki2JWwofdL9O5BA=="
-        length="29987166"
+        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.12.dmg"
+        sparkle:edSignature="i3pWbzE30uaUA99leODXvK1C+4Z2AdgKv/giLTmrN/jB6vBb/zEU+ltAyRtAz/F0Dki592BJWyBxmHphr9DmBg=="
+        length="29987322"
         sparkle:os="macos"
         type="application/octet-stream" />
     </item>
     <!-- Windows -->
     <item>
-      <title>Version 1.0.11</title>
-      <pubDate>Tue, 27 Jan 2026 00:43:05 +0000</pubDate>
-      <sparkle:version>1.0.11</sparkle:version>
-      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <title>Version 1.0.12</title>
+      <pubDate>Tue, 27 Jan 2026 01:09:05 +0000</pubDate>
+      <sparkle:version>1.0.12</sparkle:version>
+      <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
       <description><![CDATA[
-        <h2>ienon Desktop 1.0.11</h2>
+        <h2>ienon Desktop 1.0.12</h2>
         <ul>
           <li>アップデート</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.11-windows-setup.exe"
-        sparkle:dsaSignature="MDwCHCJIsB2TYmO5n7KgfQuO0A8sgPi/ZEzh558xVuICHF7Tl3hefw+J5GRI53Dcxs3OR9T684RYqZefZIs="
+        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.12-windows-setup.exe"
+        sparkle:dsaSignature="MDwCHAwTrgHZfTOVF8tTWamQGo2GLvyc+/nNMCbBGEECHACb3ZqcsEB6/oXoLL5XrlyVwtplK00GPwWsdIY="
         sparkle:installerArguments="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
-        length="38734381"
+        length="38735164"
         sparkle:os="windows"
         type="application/octet-stream" />
     </item>
