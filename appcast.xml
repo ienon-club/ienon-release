@@ -8,7 +8,7 @@
     <!-- macOS -->
     <item>
       <title>Version 1.0.13</title>
-      <pubDate>Sat, 28 Mar 2026 13:29:17 +0000</pubDate>
+      <pubDate>Sat, 28 Mar 2026 13:46:32 +0000</pubDate>
       <sparkle:version>1.0.13</sparkle:version>
       <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
@@ -20,15 +20,15 @@
       ]]></description>
       <enclosure
         url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.13.dmg"
-        sparkle:edSignature="GDdJRyxERlMHkSwWt8G7OER/EUFKCE54hi46EQRuTxYWiQCLOzIk+phoGz1gJps2xdeROrxhw/ZXCWHJHO20BQ=="
-        length="31115264"
+        sparkle:edSignature="JQyjr/PQjJq/KPnyzLRHIvTB6a51enBcHPEFVMwCEW7Soeb3HHaNtKa8g1cUYADR7UIl+3EEuGyvHkh9rAqEDQ=="
+        length="31115029"
         sparkle:os="macos"
         type="application/octet-stream" />
     </item>
     <!-- Windows -->
     <item>
       <title>Version 1.0.13</title>
-      <pubDate>Sat, 28 Mar 2026 13:29:17 +0000</pubDate>
+      <pubDate>Sat, 28 Mar 2026 13:46:32 +0000</pubDate>
       <sparkle:version>1.0.13</sparkle:version>
       <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
       <description><![CDATA[
@@ -39,9 +39,9 @@
       ]]></description>
       <enclosure
         url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.13-windows-setup.exe"
-        sparkle:dsaSignature="MDwCHAccWAE4J+FBOEgHg2/NNolbb96Xh3EAu5TL0vsCHF7HcKHiAPDo9ToEZ2wYi3tM4ri+bvyUvC73bQg="
+        sparkle:dsaSignature="MDwCHGys4scu6omYJHNGuS5VCMKOR/HwpT6PUZc3HA4CHEl52dPQbR1WpQfrfkAl80bK6d5WCdhqYfMmK1c="
         sparkle:installerArguments="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
-        length="39014171"
+        length="39015267"
         sparkle:os="windows"
         type="application/octet-stream" />
     </item>
