@@ -5,43 +5,45 @@
     <link>https://ienon-club.github.io/ienon-release/appcast.xml</link>
     <description>Most recent updates for ienon Desktop</description>
     <language>ja</language>
-    <!-- macOS -->
+    <!-- macOS: Sparkle は sparkle:version を CFBundleVersion（=FLUTTER_BUILD_NUMBER=pubspec の +N）と比較する（IENON-1076） -->
     <item>
-      <title>Version 1.0.14</title>
-      <pubDate>Thu, 03 Sep 2026 23:57:09 +0000</pubDate>
-      <sparkle:version>1.0.14</sparkle:version>
-      <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+      <title>Version 1.0.15</title>
+      <pubDate>Fri, 04 Sep 2026 00:47:25 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>ienon Desktop 1.0.14</h2>
+        <h2>ienon Desktop 1.0.15</h2>
         <ul>
           <li>アップデート</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.14.dmg"
-        sparkle:edSignature="PYpD+GJ/RjKfSFOvmvoAhS6WtQAB4PfIYKBPEJSxSzIiqoK5n/cviNp3oyDMoKYIYd0cRJ5mFBpRYHTZHJ8VBA=="
-        length="30921673"
+        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.15.dmg"
+        sparkle:edSignature="LDxPlUaj31Ijn6colG0QnFk3Rc7+WyerSYwsyHV32Uw6dVWXAYixS05sHK02yZ5Ohnfpt8CXVcUwa4PXPW3uDQ=="
+        length="30455492"
         sparkle:os="macos"
         type="application/octet-stream" />
     </item>
-    <!-- Windows -->
+    <!-- Windows: WinSparkle は sparkle:version を VERSIONINFO の ProductVersion 文字列と比較する。
+         Runner.rc の ProductVersion は FLUTTER_VERSION = "<X.Y.Z>+<build>" なので、
+         ここも同じ文字列にしないと更新後も「新しい版がある」と判定され続ける（IENON-1076） -->
     <item>
-      <title>Version 1.0.14</title>
-      <pubDate>Thu, 03 Sep 2026 23:57:09 +0000</pubDate>
-      <sparkle:version>1.0.14</sparkle:version>
-      <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+      <title>Version 1.0.15</title>
+      <pubDate>Fri, 04 Sep 2026 00:47:25 +0000</pubDate>
+      <sparkle:version>1.0.15+15</sparkle:version>
+      <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
       <description><![CDATA[
-        <h2>ienon Desktop 1.0.14</h2>
+        <h2>ienon Desktop 1.0.15</h2>
         <ul>
           <li>アップデート</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.14-windows-setup.exe"
-        sparkle:dsaSignature="MD0CHG4AlCOk5ZXBLXIy5lC6BNQ3XfCrJ8Te+IcWQjkCHQCJQbsc7OS0+OOvzAsrH2w7nyF7bkswwbyR45CP"
+        url="https://ienon-club.github.io/ienon-release/downloads/ienon-1.0.15-windows-setup.exe"
+        sparkle:dsaSignature="MD0CHCrkv1nHMRkXwDaNBqNydmDMkmVQc2mTyTLobzMCHQCTiEH+5GpddpbqPj4CcXYB6IgzaT9skQnHxJG9"
         sparkle:installerArguments="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
-        length="39010911"
+        length="38902621"
         sparkle:os="windows"
         type="application/octet-stream" />
     </item>
